@@ -1,0 +1,9 @@
+docs/
+.github/
+src/
+!dist/
+!build/
+!lib/
+__tests__
+test/
+scripts/
