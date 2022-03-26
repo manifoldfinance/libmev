@@ -1,7 +1,7 @@
 {
-  "name": "securerpc-library",
-  "version": "1.0.0",
-  "description": "web3 JSON-RPC Library",
+  "name": "libmev",
+  "version": "0.0.2",
+  "description": "idiomatic library for MEV and Web3 transactions",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "exports": {
@@ -61,6 +61,7 @@
     "ts-jest": "^26.5.6",
     "tslib": "^2.3.1",
     "typedoc": "^0.22.13",
+    "typedoc-plugin-markdown": "^3.11.14",
     "typescript": "^4.6.2"
   },
   "dependencies": {
