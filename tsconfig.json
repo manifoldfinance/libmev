@@ -12,21 +12,15 @@
     "baseUrl": "./",
     "allowSyntheticDefaultImports": true,
     "declaration": true,
+    "declarationMap": true,
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
-    "jsx": "react",
     "module": "esnext",
     "moduleResolution": "node",
     "outDir": "./lib",
     "skipLibCheck": true,
     "strict": true,
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "es2017",
-      "esnext"
-    ],
+    "target": "esnext",
     "noImplicitAny": true,
     "removeComments": true,
     "resolveJsonModule": true,
@@ -34,9 +28,10 @@
     "downlevelIteration": true,
     "preserveConstEnums": true,
     "rootDir": "./src",
-    "sourceMap": true
+    "sourceMap": false
   },
   "include": [
-    "src/**/*"
-  ]
+    "src/**/*.ts"
+  ],
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
 }
